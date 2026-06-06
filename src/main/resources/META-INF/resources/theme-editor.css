@@ -1,0 +1,25 @@
+/*
+ * This file has been created by the Vaadin Theme Editor. Please note that
+ * manual changes to individual CSS properties may be overwritten by the theme editor.
+ */
+html { --aura-base-size:17; }
+
+vaadin-text-field.main-view-text-field-1::part(clear-button) { font-size:15px; }
+
+vaadin-text-field.main-view-text-field-1::part(error-message) { font-weight:bold; }
+
+vaadin-text-field.main-view-text-field-1::part(helper-text) { color:rgba(5,5,5,1); }
+
+vaadin-text-field.main-view-text-field-1::part(input-field) {
+  border-color:rgba(23,124,240,0.2);
+  border-radius:var(--vaadin-radius-l);
+  border-style:solid;
+  border-width:3px;
+  color:var(--vaadin-user-color-4);
+  height:2.25rem;
+}
+
+vaadin-text-field.main-view-text-field-1::part(label) {
+  color:var(--vaadin-user-color-4);
+  font-size:15px;
+}
